@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.App.CardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_medium"
+    android:checkable="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:minWidth="140dp"
+    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_large">
+
+        <ImageView
+            android:id="@+id/slot_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:tint="@color/text_secondary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_menu_handicap" />
+
+        <TextView
+            android:id="@+id/slot_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/slot_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Lot B-05" />
+
+        <TextView
+            android:id="@+id/slot_type_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+            android:textColor="@color/text_secondary"
+            app:layout_constraintStart_toEndOf="@id/slot_icon"
+            app:layout_constraintTop_toBottomOf="@id/slot_label_text"
+            tools:text="Handicap" />
+
+        <!-- Status Badge -->
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:paddingHorizontal="@dimen/spacing_small"
+            android:paddingVertical="4dp"
+            android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+            android:textStyle="bold"
+            android:backgroundTint="@color/brand_green"
+            android:background="@drawable/status_badge_bg"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@id/slot_type_text"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Available" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

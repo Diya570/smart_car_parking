@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#669928"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />
+
+    <!-- Parking 'P' symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M9,7h4.5c1.93,0 3.5,1.57 3.5,3.5S15.43,14 13.5,14H11v3H9V7zm2,2v3h2.5c0.83,0 1.5,-0.67 1.5,-1.5S14.33,9 13.5,9H11z" />
+</vector>

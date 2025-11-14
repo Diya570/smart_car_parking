@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Margins and Padding -->
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">24dp</dimen>
+    <dimen name="spacing_xxlarge">32dp</dimen>
+
+    <!-- Component Specific Dimensions -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen> <!-- Reduced elevation for a flatter look -->
+    <dimen name="button_corner_radius">28dp</dimen>
+    <dimen name="text_input_corner_radius">12dp</dimen>
+    <dimen name="status_tag_corner_radius">8dp</dimen>
+
+    <!-- These were the missing values from the error log -->
+    <dimen name="corner_radius">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
+</resources>

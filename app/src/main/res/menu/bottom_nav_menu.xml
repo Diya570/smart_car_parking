@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/lotsListFragment"
+        android:icon="@drawable/ic_menu_list"
+        android:title="@string/menu_list" />
+    <item
+        android:id="@+id/myBookingsFragment"
+        android:icon="@drawable/ic_menu_bookings"
+        android:title="@string/menu_bookings" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_menu_profile"
+        android:title="@string/menu_profile" />
+    <item
+        android:id="@+id/adminDashboardFragment"
+        android:icon="@drawable/ic_menu_admin"
+        android:title="@string/menu_admin"
+        android:visible="false" />
+</menu>

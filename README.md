@@ -42,16 +42,4 @@ A short demonstration video is included in the repository. Open the file at `Dem
 
 [Demo video — Demo/demo.mp4](Demo/demo.mp4)
 
-If you want an inline HTML5 video tag (may not render on all code hosts):
-
-```
-<video controls width="640">
-  <source src="Demo/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-```**Notes & Next steps**
-- If you expect to run the app against Firebase or other services, ensure `google-services.json` is present in `app/` (it is in this repo but verify credentials).
-- Open an issue if you encounter build problems or want help running the demo.
-
----
 Repository maintained by the project contributors. See the repository for license and contributor information.

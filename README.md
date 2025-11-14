@@ -36,22 +36,13 @@ cd smart_car_parking
 - `Demo/` — demo assets (contains `demo.mp4`)
 - Gradle files at project root for build configuration
 
-**Demo**
+## Demo
 
-A short demonstration video is included in the repository. Open the file at `Demo/demo.mp4` or play it directly on GitHub by following the link below:
+Watch the app in action:
 
-[Demo video — Demo/demo.mp4](Demo/demo.mp4)
+https://github.com/Diya570/smart_car_parking/assets/Demo/demo.mp4
 
-If you want an inline HTML5 video tag (may not render on all code hosts):
-
-```
-<video controls width="640">
-	<source src="Demo/demo.mp4" type="video/mp4">
-	Your browser does not support the video tag.
-</video>
-```
-
-**Notes & Next steps**
+*Note: The demo video is located in the `Demo/` folder of this repository.***Notes & Next steps**
 - If you expect to run the app against Firebase or other services, ensure `google-services.json` is present in `app/` (it is in this repo but verify credentials).
 - Open an issue if you encounter build problems or want help running the demo.
 
